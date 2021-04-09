@@ -1,0 +1,32 @@
+.search
+    display flex
+    flex-wrap nowrap
+    align-items center
+    width 100%
+
+    &__input
+        box-sizing border-box
+        width 100%
+        padding 24px 0px
+        font-family "Arial"
+        font-size 24px
+        line-height 30px
+        font-weight 300
+        color black
+        border none
+        border-bottom 1px solid black
+        outline none
+        @media (max-width: 1440px)
+            padding 20px 0
+            font-size 20px
+            line-height 26px
+        @media (max-width: 600px)
+            padding 16px 0
+            font-size 18px
+            line-height 24px
+
+        &::placeholder
+            color #d4d4d4
+
+    &__filter
+        margin 0 0 0 10px
